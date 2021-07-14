@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LifeCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-25T06:09:00" hostname="DESKTOP-TUS" time="0.695">
+  <properties/>
+  <testcase name="lifeCycleTest3" classname="LifeCycleTest" time="0.695"/>
+  <system-out><![CDATA[class com.e_1_6_1.Lifecycle:PostConstruct
+class com.e_1_6_1.Lifecycle:afterPropertiesSet
+LifecycleImpl2 isRunning
+LifecycleImpl isRunning
+LifecycleImpl3 isRunning
+LifecycleImpl2 isRunning
+LifecycleImpl2 isRunning
+LifecycleImpl2 stop
+LifecycleImpl isRunning
+LifecycleImpl stop
+LifecycleImpl3 isRunning
+LifecycleImpl3 stop
+LifecycleImpl2 isRunning
+LifecycleImpl2 stop
+LifecycleImpl isRunning
+LifecycleImpl stop
+LifecycleImpl3 isRunning
+LifecycleImpl3 stop
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
