@@ -18,6 +18,14 @@ public class CountDownLatchDemo {
                 //计数  -1
                 countDownLatch.countDown();
 
+                try {
+                    countDownLatch.await();
+
+                    System.out.println(Thread.currentThread().getName() + " await after");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
             },String.valueOf(i)).start();
         }
 

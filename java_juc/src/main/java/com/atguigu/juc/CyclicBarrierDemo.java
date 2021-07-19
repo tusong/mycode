@@ -23,6 +23,8 @@ public class CyclicBarrierDemo {
                     System.out.println(Thread.currentThread().getName()+" 星龙被收集到了");
                     //等待
                     cyclicBarrier.await();
+
+                    System.out.println(Thread.currentThread().getName());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

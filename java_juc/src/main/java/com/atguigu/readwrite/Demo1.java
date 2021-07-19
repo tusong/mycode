@@ -11,14 +11,16 @@ public class Demo1 {
         ReentrantReadWriteLock.ReadLock readLock = rwLock.readLock();//读锁
         ReentrantReadWriteLock.WriteLock writeLock = rwLock.writeLock();//写锁
 
+        //1 获取写锁
+        writeLock.lock();
+        System.out.println("atguigu");
+
         //锁降级
         //2 获取读锁
         readLock.lock();
         System.out.println("---read");
 
-        //1 获取写锁
-        writeLock.lock();
-        System.out.println("atguigu");
+
 
         //3 释放写锁
         //writeLock.unlock();
@@ -26,4 +28,8 @@ public class Demo1 {
         //4 释放读锁
         //readLock.unlock();
     }
+
+
+
+
 }
