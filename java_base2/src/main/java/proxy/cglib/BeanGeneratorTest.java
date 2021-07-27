@@ -1,11 +1,5 @@
 package proxy.cglib;
 
-import net.sf.cglib.beans.BeanGenerator;
-import org.junit.Assert;
-import org.junit.Test;
-
-import java.lang.reflect.Method;
-
 /**
  * @author tusong
  * @version V1.0
@@ -15,15 +9,15 @@ import java.lang.reflect.Method;
  * @Description: 此处添加类描述……
  */
 public class BeanGeneratorTest {
-    @Test
-    public void testBeanGenerator() throws Exception{
-        BeanGenerator beanGenerator = new BeanGenerator();
-        beanGenerator.addProperty("value",String.class);
-        Object myBean = beanGenerator.create();
-        Method setter = myBean.getClass().getMethod("setValue",String.class);
-        setter.invoke(myBean,"Hello cglib");
-
-        Method getter = myBean.getClass().getMethod("getValue");
-        Assert.assertEquals("Hello cglib",getter.invoke(myBean));
-    }
+//    @Test
+//    public void testBeanGenerator() throws Exception{
+//        BeanGenerator beanGenerator = new BeanGenerator();
+//        beanGenerator.addProperty("value",String.class);
+//        Object myBean = beanGenerator.create();
+//        Method setter = myBean.getClass().getMethod("setValue",String.class);
+//        setter.invoke(myBean,"Hello cglib");
+//
+//        Method getter = myBean.getClass().getMethod("getValue");
+//        Assert.assertEquals("Hello cglib",getter.invoke(myBean));
+//    }
 }

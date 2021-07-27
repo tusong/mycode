@@ -17,17 +17,27 @@ A直接存在于E上;或
 No annotation of A 's type is directly present on E, and E is a class, and A 's type is inheritable, and A is present on the superclass of E.
 E上没有A类型的注释，E是一个类，A的类型是可继承的，A存在于E的超类上。
 An annotation A is associated with an element E if either:
+注解A与元素E关联:
 A is directly or indirectly present on E; or
+A直接或间接呈现在E上；或
 No annotation of A 's type is directly or indirectly present on E, and E is a class, and A's type is inheritable, and A is associated with the superclass of E.
+E上没有直接或间接的A类型注释，E是一个类，A的类型是可继承的，A与E的超类相关联。
 The table below summarizes which kind of annotation presence different methods in this interface examine.
 Overview of kind of presence detected by different AnnotatedElement methods
 
-Kind of Presence
-Method
-Directly Present
-Indirectly Present
-Present
-Associated
+  
+  
+  |  表头   | 表头  |
+  |  ----  | ----  |
+  | 单元格  | 单元格 |
+  | 单元格  | 单元格 |
+  
+
+ |  Kind of Presence  |
+ | Method | Directly Present  |
+ | Indirectly Present  |
+ | Present
+ | Associated
 T
 getAnnotation(Class<T>)
 

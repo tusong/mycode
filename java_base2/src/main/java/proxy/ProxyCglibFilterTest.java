@@ -1,9 +1,5 @@
 package proxy;
 
-import net.sf.cglib.proxy.*;
-
-import java.lang.reflect.Method;
-
 /**
  * @author tusong
  * @version V1.0
@@ -23,33 +19,33 @@ public class ProxyCglibFilterTest {
     }
 
     public static void main(String[] args) {
-        Enhancer enhancer = new Enhancer();
-        enhancer.setSuperclass(A.class);
-        enhancer.setCallback(new FixedValue() {
-            @Override
-            public Object loadObject() throws Exception {
-                return "aaaa";
-            }
-        });
-
-        CallbackHelper callbackHelper = new CallbackHelper(A.class,null) {
-            @Override
-            protected Object getCallback(Method method) {
-
-                if(method.getDeclaringClass() != Object.class){
-
-                }
-
-                return NoOp.INSTANCE;
-            }
-        };
-
-        A a = (A) enhancer.create();
-        a.a();
-//        System.out.println(a.toString());
-//        System.out.println(a.hashCode());
-//        System.out.println(a.getClass());
-
+//        Enhancer enhancer = new Enhancer();
+//        enhancer.setSuperclass(A.class);
+//        enhancer.setCallback(new FixedValue() {
+//            @Override
+//            public Object loadObject() throws Exception {
+//                return "aaaa";
+//            }
+//        });
+//
+//        CallbackHelper callbackHelper = new CallbackHelper(A.class,null) {
+//            @Override
+//            protected Object getCallback(Method method) {
+//
+//                if(method.getDeclaringClass() != Object.class){
+//
+//                }
+//
+//                return NoOp.INSTANCE;
+//            }
+//        };
+//
+//        A a = (A) enhancer.create();
+//        a.a();
+////        System.out.println(a.toString());
+////        System.out.println(a.hashCode());
+////        System.out.println(a.getClass());
+//
     }
 
 

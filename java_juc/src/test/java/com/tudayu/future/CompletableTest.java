@@ -1,4 +1,4 @@
-package com.tudayu.completable;
+package com.tudayu.future;
 
 import org.junit.Test;
 

@@ -1,10 +1,5 @@
 package proxy.cglib;
 
-import net.sf.cglib.core.KeyFactory;
-import org.junit.Assert;
-import org.junit.Test;
-import proxy.SimpleKeyFactory;
-
 /**
  * @author tusong
  * @version V1.0
@@ -15,13 +10,13 @@ import proxy.SimpleKeyFactory;
  */
 public class KeyFactoryTest {
 
-    @Test
-    public void testKeyFactory() {
-        SimpleKeyFactory simpleKeyFactory = (SimpleKeyFactory) KeyFactory.create(SimpleKeyFactory.class);
-
-        Object o1 = simpleKeyFactory.newInstance("1",2);
-        Object o2 = simpleKeyFactory.newInstance("1",2);
-
-        Assert.assertEquals(o1,o2);
-    }
+//    @Test
+//    public void testKeyFactory() {
+//        SimpleKeyFactory simpleKeyFactory = (SimpleKeyFactory) KeyFactory.create(SimpleKeyFactory.class);
+//
+//        Object o1 = simpleKeyFactory.newInstance("1",2);
+//        Object o2 = simpleKeyFactory.newInstance("1",2);
+//
+//        Assert.assertEquals(o1,o2);
+//    }
 }

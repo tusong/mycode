@@ -19,7 +19,7 @@ public class BlockingQueueDemo {
 ////        //System.out.println(blockingQueue.element());
 ////
 ////        //System.out.println(blockingQueue.add("w"));
-////        System.out.println(blockingQueue.remove());
+        System.out.println(blockingQueue.remove());
 ////        System.out.println(blockingQueue.remove());
 ////        System.out.println(blockingQueue.remove());
 ////        System.out.println(blockingQueue.remove());

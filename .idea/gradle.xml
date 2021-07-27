@@ -7,20 +7,6 @@
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="D:/Tydic/SVN/yuexiu-n/SourceCode/1_Develop/1_BOSS+PI/SpringAnnotaion" />
-        <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
-        <option name="modules">
-          <set>
-            <option value="D:/Tydic/SVN/yuexiu-n/SourceCode/1_Develop/1_BOSS+PI/SpringAnnotaion" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/generic" />
         <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
         <option name="modules">
@@ -43,6 +29,41 @@
           </set>
         </option>
         <option name="useAutoImport" value="true" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java_base/java_base2" />
+        <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java_base/java_base2" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java_base2" />
+        <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java_base2" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java_juc" />
+        <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java_juc" />
+          </set>
+        </option>
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
@@ -74,6 +95,8 @@
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/jvmStudy" />
         <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
@@ -82,6 +105,7 @@
             <option value="$PROJECT_DIR$/jvmStudy" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
@@ -99,6 +123,8 @@
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/springmvc" />
         <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
@@ -107,9 +133,12 @@
             <option value="$PROJECT_DIR$/springmvc" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/springtest/springmvc" />
         <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
@@ -135,6 +164,8 @@
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/testj" />
         <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
@@ -147,6 +178,8 @@
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/zookeeperTest" />
         <option name="gradleHome" value="D:/DevTools/gradle-4.6" />
@@ -155,6 +188,7 @@
             <option value="$PROJECT_DIR$/zookeeperTest" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>

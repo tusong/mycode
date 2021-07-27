@@ -7,8 +7,6 @@ import org.springframework.context.Lifecycle;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.lang.annotation.Annotation;
-
 public class LifeCycleTest {
 
 
@@ -41,9 +39,9 @@ public class LifeCycleTest {
 
         context.getBean(LifecycleImpl.class);
 
-        context.start();
-        context.stop();
-        context.close();
+//        context.start();
+//        context.stop();
+//        context.close();
 
     }
 
