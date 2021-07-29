@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springbootdemo" />
+        <module name="java_base" />
+        <module name="springmvc" />
+        <module name="jvmStudy" />
+        <module name="java_lock" />
+        <module name="jvm-memory" />
+        <module name="java_juc" />
+        <module name="springIoc" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="demo.main" target="1.8" />
       <module name="demo.test" target="1.8" />
-      <module name="java_base" target="8" />
+      <module name="java_base2.main" target="1.8" />
+      <module name="java_base2.test" target="1.8" />
+      <module name="java_lock.main" target="1.8" />
+      <module name="java_lock.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
       <module name="java_juc" options="-parameters" />
+      <module name="springIoc" options="-parameters" />
+      <module name="springbootdemo" options="-parameters" />
+      <module name="springmvc" options="-parameters" />
     </option>
   </component>
 </project>

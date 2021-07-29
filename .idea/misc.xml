@@ -6,13 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/java_base/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
-        <option value="$PROJECT_DIR$/java_juc/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8.0_92" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8.0_92" project-jdk-type="JavaSDK" />
   <component name="SuppressABINotification">
     <option name="modulesWithSuppressedNotConfigured">
       <set>

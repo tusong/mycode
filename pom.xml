@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.3</version>
+    </parent>
+
+    <modules>
+        <module>springbootdemo</module>
+        <module>java_juc</module>
+        <module>java_base</module>
+        <module>java_lock</module>
+        <module>jvm-memory</module>
+        <module>springIoc</module>
+        <module>springmvc</module>
+        <module>jvmStudy</module>
+    </modules>
+
+
+    <artifactId>my_code</artifactId>
+    <groupId>com.tudayu</groupId>
+    <version>0.1</version>
+
+    <name>my_code</name>
+    <packaging>pom</packaging>
+    <properties>
+        <version>0.1</version>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>center</id>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+            <id>tydic</id>
+            <url>https://repository.jboss.org/maven2</url>
+        </repository>
+        <repository>
+            <id>tydic2</id>
+            <url>http://139.129.91.208:8081/artifactory/tydic-repo</url>
+        </repository>
+    </repositories>
+
+</project>
