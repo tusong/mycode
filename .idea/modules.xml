@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java_base/java_base.iml" filepath="$PROJECT_DIR$/java_base/java_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_juc/java_juc.iml" filepath="$PROJECT_DIR$/java_juc/java_juc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_lock/java_lock.iml" filepath="$PROJECT_DIR$/java_lock/java_lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvm-memory/jvm-memory.iml" filepath="$PROJECT_DIR$/jvm-memory/jvm-memory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvmStudy/jvmStudy.iml" filepath="$PROJECT_DIR$/jvmStudy/jvmStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/my_code.iml" filepath="$PROJECT_DIR$/.idea/my_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springIoc/springIoc.iml" filepath="$PROJECT_DIR$/springIoc/springIoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
+    </modules>
+  </component>
+</project>
