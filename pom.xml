@@ -16,6 +16,8 @@
         <module>springIoc</module>
         <module>springmvc</module>
         <module>jvmStudy</module>
+        <module>mybatis</module>
+        <module>logger</module>
     </modules>
 
 

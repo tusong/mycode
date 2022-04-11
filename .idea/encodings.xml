@@ -2,17 +2,16 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/java_base/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java_base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java_juc/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java_juc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java_lock/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java_lock/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jvm-memory/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jvm-memory/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jvmStudy/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jvmStudy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springIoc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootdemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

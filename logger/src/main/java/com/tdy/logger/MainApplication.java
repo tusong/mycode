@@ -1,2 +1,6 @@
-package com.tdy.logger;public class MainApplication {
+package com.tdy.logger;
+
+public class MainApplication {
+
+
 }

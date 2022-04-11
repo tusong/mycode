@@ -13,7 +13,7 @@
     <groupId>com.tudayu</groupId>
     <artifactId>springIoc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>springioc</name>
 
     <dependencies>
         <dependency>

@@ -7,7 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/java_lock/java_lock.iml" filepath="$PROJECT_DIR$/java_lock/java_lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm-memory/jvm-memory.iml" filepath="$PROJECT_DIR$/jvm-memory/jvm-memory.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvmStudy/jvmStudy.iml" filepath="$PROJECT_DIR$/jvmStudy/jvmStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logger/logger.iml" filepath="$PROJECT_DIR$/logger/logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/my_code.iml" filepath="$PROJECT_DIR$/.idea/my_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springIoc/springIoc.iml" filepath="$PROJECT_DIR$/springIoc/springIoc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />

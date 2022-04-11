@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.tdy.inf.Inf">
+<mapper namespace="com.tdy.inf.InfMapper">
 
     <select id="selInf" resultType="map">
 
-        select inf_code,in_message
+        select inf_code,in_message,date_format(create_date,'%Y-%m-%d %H:%S:%I') create_date
         from inf_message
 
 

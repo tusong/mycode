@@ -13,7 +13,7 @@
     <groupId>com.tudayu</groupId>
     <artifactId>java_juc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>java-juc</name>
 
     <dependencies>
         <dependency>

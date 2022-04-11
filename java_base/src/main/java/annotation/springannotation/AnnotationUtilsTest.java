@@ -61,7 +61,7 @@ public class AnnotationUtilsTest {
     static void test03(){
 //        HttpEncodingAutoConfiguration
         ConditionalOnProperty annotationConditionalOnProperty = AnnotationUtils.getAnnotation(HttpEncodingAutoConfiguration.class, ConditionalOnProperty.class);
-        AnnotationUtils.getAnnotation(annotationConditionalOnProperty, Conditional.class)
+        AnnotationUtils.getAnnotation(annotationConditionalOnProperty, Conditional.class);
 
 
     }

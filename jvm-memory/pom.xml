@@ -13,7 +13,7 @@
     <groupId>com.tudayu</groupId>
     <artifactId>jvm-memory</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>jvm-memory</name>
 
     <dependencies>
         <dependency>

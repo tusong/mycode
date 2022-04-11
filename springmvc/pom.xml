@@ -13,7 +13,7 @@
     <groupId>com.tudayu</groupId>
     <artifactId>springmvc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>springmvc</name>
 
     <dependencies>
         <dependency>

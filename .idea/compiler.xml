@@ -2,18 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springbootdemo" />
-        <module name="java_base" />
-        <module name="springmvc" />
-        <module name="jvmStudy" />
         <module name="java_lock" />
         <module name="jvm-memory" />
-        <module name="java_juc" />
         <module name="springIoc" />
+        <module name="java_juc" />
+        <module name="springbootdemo" />
+        <module name="mybatis" />
+        <module name="logger" />
+        <module name="java_base" />
+        <module name="jvmStudy" />
+        <module name="springmvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,7 +25,9 @@
       <module name="java_lock" target="1.8" />
       <module name="jvm-memory" target="1.8" />
       <module name="jvmStudy" target="1.8" />
+      <module name="logger" target="8" />
       <module name="my_code" target="1.8" />
+      <module name="mybatis" target="8" />
       <module name="springbootdemo" target="1.8" />
       <module name="springIoc" target="1.8" />
       <module name="springmvc" target="1.8" />
@@ -30,6 +35,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="logger" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
       <module name="springIoc" options="-parameters" />
       <module name="springbootdemo" options="-parameters" />
       <module name="springmvc" options="-parameters" />

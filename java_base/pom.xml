@@ -13,7 +13,7 @@
     <groupId>com.tudayu</groupId>
     <artifactId>java_base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>java-base</name>
 
     <dependencies>
         <dependency>
