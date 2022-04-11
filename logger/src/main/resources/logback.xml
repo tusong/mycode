@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+	<statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+	<jmxConfigurator />
+	<!-- 工作台日志 -->
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[fm-log] %date [%thread] %-5level %logger{80} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- debug日志 -->
+	<property name="debug_path" value="./logs/debug/debug_log" />
+	<appender name="debug"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>DEBUG</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<FileNamePattern>${debug_path}-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+			<maxHistory>10</maxHistory>
+            <maxFileSize>300MB</maxFileSize>
+            <totalSizeCap>10240MB</totalSizeCap>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[fm-log] %date [%thread] %-5level %logger{80} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- info日志 -->
+	<property name="info_path" value="./logs/info/info_log" />
+	<appender name="info"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>INFO</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<FileNamePattern>${info_path}-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+			<maxHistory>10</maxHistory>
+            <maxFileSize>300MB</maxFileSize>
+            <totalSizeCap>10240MB</totalSizeCap>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[fm-log] %date [%thread] %-5level %logger{80} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- error日志 -->
+	<!-- <property name="error_path" value="./order-server/logs/error/error_log" />
+	<appender name="error"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>ERROR</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<FileNamePattern>${error_path}-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[fm-log] %date [%thread] %-5level %logger{80} - %msg%n
+			</pattern>
+		</encoder>
+	</appender> -->
+
+	<!-- 异常日志 -->
+	<property name="exception_path" value="./logs/exception/exception-log" />
+	<appender name="exception"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>INFO</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<FileNamePattern>${exception_path}-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+			<maxHistory>10</maxHistory>
+            <maxFileSize>300MB</maxFileSize>
+            <totalSizeCap>10240MB</totalSizeCap>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[fm-log] %date [%thread] %-5level %logger{80} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	
+	<!-- 业务日志（关键信息） -->
+	<property name="keyInfo_path" value="./logs/keyInfo/keyInfo-log" />
+	<appender name="keyInfo"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>INFO</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<FileNamePattern>${keyInfo_path}-%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+			<maxHistory>10</maxHistory>
+            <maxFileSize>300MB</maxFileSize>
+            <totalSizeCap>10240MB</totalSizeCap>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[fm-log] %date [%thread] %-5level %logger{80} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	<!-- 
+	<logger name="debug" level="DEBUG" additivity="false">
+		<appender-ref ref="debug" />
+	</logger> -->
+	<logger name="info" level="INFO" additivity="false">
+		<appender-ref ref="info" />
+	</logger>
+	<logger name="exception" level="INFO" additivity="false">
+		<appender-ref ref="exception" />
+	</logger>
+	<logger name="keyInfo" level="INFO" additivity="false">
+		<appender-ref ref="keyInfo" />
+	</logger>
+	
+	<logger name="com.tydic" additivity="false">
+		<appender-ref ref="stdout" />
+		<!-- 
+		<appender-ref ref="debug"/> -->
+	</logger>
+	<root>
+		<appender-ref ref="stdout" />
+	</root>
+</configuration>
