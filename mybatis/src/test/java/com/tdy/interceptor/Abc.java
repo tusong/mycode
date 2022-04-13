@@ -4,10 +4,7 @@ package com.tdy.interceptor;
 import org.apache.ibatis.executor.SimpleExecutor;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.mapping.MappedStatement;
-import org.apache.ibatis.session.Configuration;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.ibatis.session.*;
 import org.apache.ibatis.transaction.jdbc.JdbcTransaction;
 import org.junit.Before;
 import org.junit.Test;
@@ -45,7 +42,8 @@ public class Abc {
     public void simpleExecutor() throws SQLException {
         SimpleExecutor executor = new SimpleExecutor(configuration,jdbcTransaction);
         MappedStatement ms = configuration.getMappedStatement("com.tdy.inf.InfMapper.selInf");
-        executor.doQuery(ms,null,null,null,ms.getBoundSql(null) );
+        executor.doQuery(ms,null,new RowBounds(),null,ms.getBoundSql(null) );
+        executor.doQuery(ms,null,new RowBounds(),null,ms.getBoundSql(null) );
     }
 
 

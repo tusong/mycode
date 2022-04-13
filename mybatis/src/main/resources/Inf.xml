@@ -7,7 +7,7 @@
 
         select inf_code,in_message,date_format(create_date,'%Y-%m-%d %H:%S:%I') create_date
         from inf_message
-
+        limit 0,1
 
     </select>
 
