@@ -17,6 +17,11 @@
       <option name="url" value="https://repository.jboss.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="aliyun_maven" />
+      <option name="name" value="aliyun_maven" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="center" />
       <option name="name" value="center" />
       <option name="url" value="https://repo1.maven.org/maven2" />
