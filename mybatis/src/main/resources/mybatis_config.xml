@@ -10,16 +10,17 @@
                 <!-- 1.加载数据库驱动：oracle.jdbc.driver.OracleDriver -->
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <!-- 2.数据库连接地址：oracle.jdbc.driver.OracleDriver -->
-                <property name="url" value="jdbc:mysql://192.168.161.194/hf_db1"/>
+                <property name="url" value="jdbc:mysql://192.168.161.139/shallwe"/>
                 <!-- 数据库用户... -->
-                <property name="username" value="vktest"/>
+                <property name="username" value="vk_sz1"/>
                 <!-- 数据库密码... -->
-                <property name="password" value="vktest"/>
+                <property name="password" value="vk_sz1"/>
             </dataSource>
         </environment>
     </environments>
     <!-- 注册映射文件：java对象与数据库之间的xml文件路径！ -->
     <mappers>
         <mapper resource="Inf.xml"/>
+        <mapper resource="CustMap.xml" />
     </mappers>
 </configuration>
