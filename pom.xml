@@ -18,6 +18,7 @@
         <module>jvmStudy</module>
         <module>mybatis</module>
         <module>logger</module>
+        <module>redis</module>
     </modules>
 
 

@@ -11,6 +11,14 @@
 
     <artifactId>redis</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-redis</artifactId>
+            <version>1.4.3.RELEASE</version>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>

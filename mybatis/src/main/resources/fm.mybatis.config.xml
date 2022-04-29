@@ -28,4 +28,13 @@
 			<property name="databaseType" value="mysql" />
 		</plugin>
 	</plugins>
+	<mappers>
+		<mapper resource="Inf.xml"/>
+		<mapper resource="CustMap.xml" />
+	</mappers>
+<!--	<plugins>-->
+<!--		<plugin interceptor="com.tdy.inf.plugin.ExamplePlugin">-->
+<!--			<property name="aaa" value="aaa"/>-->
+<!--		</plugin>-->
+<!--	</plugins>-->
 </configuration>
