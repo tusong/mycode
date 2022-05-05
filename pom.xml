@@ -19,6 +19,7 @@
         <module>mybatis</module>
         <module>logger</module>
         <module>redis</module>
+        <module>zookeeper</module>
     </modules>
 
 

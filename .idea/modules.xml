@@ -10,9 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/logger/logger.iml" filepath="$PROJECT_DIR$/logger/logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/my_code.iml" filepath="$PROJECT_DIR$/.idea/my_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springIoc/springIoc.iml" filepath="$PROJECT_DIR$/springIoc/springIoc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper/zookeeper.iml" />
     </modules>
   </component>
 </project>
