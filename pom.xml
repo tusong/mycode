@@ -20,6 +20,7 @@
         <module>logger</module>
         <module>redis</module>
         <module>zookeeper</module>
+        <module>spring-kafka</module>
     </modules>
 
 
@@ -61,18 +62,18 @@
             <id>aliyun_maven</id>
             <url>https://maven.aliyun.com/repository/public</url>
         </repository>
-        <repository>
-            <id>center</id>
-            <url>https://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
-            <id>tydic</id>
-            <url>https://repository.jboss.org/maven2</url>
-        </repository>
-        <repository>
-            <id>tydic2</id>
-            <url>http://139.129.91.208:8081/artifactory/tydic-repo</url>
-        </repository>
+<!--        <repository>-->
+<!--            <id>center</id>-->
+<!--            <url>https://repo1.maven.org/maven2</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>tydic</id>-->
+<!--            <url>https://repository.jboss.org/maven2</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>tydic2</id>-->
+<!--            <url>http://139.129.91.208:8081/artifactory/tydic-repo</url>-->
+<!--        </repository>-->
     </repositories>
 
 </project>

@@ -37,6 +37,10 @@
             <artifactId>reactor-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -53,6 +57,57 @@
                     </excludes>
                 </configuration>
             </plugin>
+
+
+            <!--docker-maven-plugin插件打包-->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <configuration>
+                    <!--镜像名称-->
+                    <imageName>${project.artifactId}</imageName>
+                    <!--指定标签-->
+                    <imageTags>
+                        <imageTag>latest</imageTag>
+                    </imageTags>
+                    <!--基础镜像jdk1.8-->
+                    <baseImage>java</baseImage>
+                    <!--制作者提供本人信息-->
+                    <maintainer>1064592074@qq.com</maintainer>
+                    <!--切换到Root目录-->
+<!--                    <workdir>/</workdir>-->
+<!--                    <cmd>["java", "-version"]</cmd>-->
+                    <entryPoint>["java", "-jar", "${project.build.finalName}.jar"]</entryPoint>
+
+                    <!--指定DockerFile路径-->
+                     <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
+<!--                    <dockerDirectory>${project.build.outputDirectory}</dockerDirectory>-->
+
+                    <serverId>docker</serverId>
+                    <!--指定远程docker api地址-->
+                    <dockerHost>http://192.168.161.95:2375</dockerHost>
+
+
+<!--                    是否推送到docker仓库-->
+                    <pushImage>true</pushImage>
+
+                    <registryUrl>registry.cn-shenzhen.aliyuncs.com</registryUrl>
+
+                    <!-- 这里是复制 jar 包到 docker 容器指定目录配置 -->
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <!--用于指定需要复制的根目录-->
+                            <directory>${project.build.directory}</directory>
+                            <!--用于指定需要复制的jar文件-->
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+
+
         </plugins>
     </build>
 
